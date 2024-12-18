@@ -1,0 +1,101 @@
+/* General Reset */
+body, h1, form, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Castoro Titling', serif;
+  background-color: #2c3e50;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Content Styling */
+main {
+  background-color: #34495e;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Logo Styling */
+.mousragheb-logo {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Heading Styling */
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* Form Styling */
+.form fieldset {
+  border: none;
+  padding: 0;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #2ecc71;
+  border-radius: 5px;
+  background-color: #34495e;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #27ae60;
+}
+
+/* Button Styling */
+button {
+  background-color: #f1c40f;
+  border: none;
+  color: #2c3e50;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f39c12;
+}
+
+/* Output Styling */
+.output {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #16a085;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  
+}
+.hidden{
+  display:none;
+}
+
